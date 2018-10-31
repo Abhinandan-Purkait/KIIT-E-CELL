@@ -5,11 +5,12 @@
 </body>
 </html>
 <?php
-$myHostName = "localhost";
-$username = "root";
-$password = "1Abhinandan!";
-$database_in_use = "employee";
+$myHostName = "YOUR HOST NAME HERE";
+$username = "YOUR PHP MY ADMIN USERNAME";
+$password = "YOUR PHP MY ADMIN PASSWORD";
+$database_in_use = "NAME OF YOUR DATABASE";
 
+//BELOW PROGRAM IS FOR THE EMPLOYEE TABLE CHANGE ACCORDINGLY. EMPLOYEE TABLE CONSITS OF THE DATA REGARDING EMPLOYEE
 $maker = new mysqli($myHostName, $username, $password, $database_in_use);
 
 if ($maker->connect_error) {
